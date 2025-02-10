@@ -3,7 +3,7 @@ const result = document.querySelector(".result")
 const micBtn = document.querySelector(".mic-btn")
 const loader = document.querySelector(".loader")
 
-const speech = window.SpeechRecognition || window.webkitSpeechRecognition
+const speech = window.webkitSpeechRecognition
 if (!speech) {
 	alert("Распознавание речи НЕ поддерживается в этом браузере.")
 }
