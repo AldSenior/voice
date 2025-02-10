@@ -36,7 +36,7 @@ micBtn.addEventListener("click", () => {
 			rec.onresult = function (e) {
 				const results = Array.from(e.results)
 				const text = results[results.length - 1][0].transcript
-				result.textContent = accumulatedText + text + " "
+				result.textContent = accumulatedText + " " + text + " "
 			}
 
 			// Обработка завершения распознавания
