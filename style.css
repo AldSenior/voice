@@ -38,6 +38,13 @@ h1 {
 	overflow-y: auto;
 }
 
+.loader {
+	font-size: 18px;
+	margin: 10px 0;
+	color: #28a745;
+	display: none;
+}
+
 .btn,
 .clear-btn,
 .mic-btn {
@@ -59,17 +66,17 @@ h1 {
 }
 
 .rec {
-	background-color: #ff0000; /* Красный цвет для кнопки записи */
+	background-color: #ff0000;
 }
 
 .rec:hover {
-	background-color: #cc0000; /* Более темный красный при наведении */
+	background-color: #cc0000;
 }
 
 .mic-connected {
-	background-color: #28a745; /* Зеленый цвет для кнопки подключения */
+	background-color: #28a745;
 }
 
 .mic-connected:hover {
-	background-color: #218838; /* Более темный зеленый при наведении */
+	background-color: #218838;
 }
